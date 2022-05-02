@@ -1,0 +1,12 @@
+## 送るサーバー
+sendServer: main
+
+## 指定された時間ごとにプレイヤーを送る 値: tick (初期 2秒)
+queueTime: 40
+## queueTimeごとに送るプレイヤーの人数 (初期5人)
+sendToPlayers: 5
+## 1プレイヤーを送るのにかかる時間 値: tick (初期 0.1秒)
+sendToPlayersTime: 2
+sendToConnectingMessage: true
+## アクションバーを表示するか
+showActionBar: true

@@ -1,0 +1,15 @@
+name: Queue
+version: '${project.version}'
+main: me.koutachan.queue.Queue
+api-version: 1.18
+commands:
+  open:
+    permission: command.open
+  send:
+    permission: command.send
+  actionbar:
+    permission: command.actionbar
+  sendmessage:
+    permission: command.sendmessage
+  settings:
+    permission: command.settings
